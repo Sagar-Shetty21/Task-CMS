@@ -4,7 +4,8 @@
   "info": {
     "singularName": "user-data",
     "pluralName": "users-data",
-    "displayName": "userData"
+    "displayName": "userData",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,16 @@
     },
     "email": {
       "type": "email"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
