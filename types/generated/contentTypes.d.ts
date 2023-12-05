@@ -368,7 +368,6 @@ export interface ApiUserDataUserData extends Schema.CollectionType {
     singularName: 'user-data';
     pluralName: 'users-data';
     displayName: 'userData';
-    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -376,7 +375,7 @@ export interface ApiUserDataUserData extends Schema.CollectionType {
   attributes: {
     name: Attribute.String;
     contact: Attribute.BigInteger;
-    email: Attribute.Email & Attribute.Unique;
+    email: Attribute.Email;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

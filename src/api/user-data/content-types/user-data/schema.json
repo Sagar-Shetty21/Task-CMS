@@ -4,8 +4,7 @@
   "info": {
     "singularName": "user-data",
     "pluralName": "users-data",
-    "displayName": "userData",
-    "description": ""
+    "displayName": "userData"
   },
   "options": {
     "draftAndPublish": true
@@ -19,8 +18,7 @@
       "type": "biginteger"
     },
     "email": {
-      "type": "email",
-      "unique": true
+      "type": "email"
     }
   }
 }
